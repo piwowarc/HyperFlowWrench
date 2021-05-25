@@ -1,0 +1,1431 @@
+{
+    "workflow_execution": {
+        "tasks": [
+            {
+                "color": "",
+                "compute": {
+                    "end": 6.30439048814433,
+                    "start": 6.30439048814433
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 6.30439048814433,
+                        "id": "chr210.sfq",
+                        "start": 1.1084536082474228e-18
+                    }
+                ],
+                "task_id": "0",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 13.303301875,
+                    "start": 1.1084536082474228e-18
+                },
+                "write": [
+                    {
+                        "end": 7.169293875,
+                        "id": "chr21.0.0.sfq",
+                        "start": 6.30439048814433
+                    },
+                    {
+                        "end": 8.042859,
+                        "id": "chr21.0.1.sfq",
+                        "start": 7.169293875
+                    },
+                    {
+                        "end": 8.90197003283505,
+                        "id": "chr21.0.2.sfq",
+                        "start": 8.042859
+                    },
+                    {
+                        "end": 9.769485210257727,
+                        "id": "chr21.0.3.sfq",
+                        "start": 8.90197003283505
+                    },
+                    {
+                        "end": 10.67493187041237,
+                        "id": "chr21.0.4.sfq",
+                        "start": 9.769485210257727
+                    },
+                    {
+                        "end": 11.561712124742266,
+                        "id": "chr21.0.5.sfq",
+                        "start": 10.67493187041237
+                    },
+                    {
+                        "end": 12.46430781536082,
+                        "id": "chr21.0.6.sfq",
+                        "start": 11.561712124742266
+                    },
+                    {
+                        "end": 13.303301875,
+                        "id": "chr21.0.7.sfq",
+                        "start": 12.46430781536082
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 20.01778531316889,
+                    "start": 20.01778531316889
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 20.01778531316889,
+                        "id": "chr21.0.0.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "1",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 26.620633542628866,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 23.572712142628866,
+                        "id": "chr21.0.0.contam.sfq",
+                        "start": 20.01778531316889
+                    },
+                    {
+                        "end": 26.620633542628866,
+                        "id": "chr21.0.0.nocontam.sfq",
+                        "start": 23.572712142628866
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 30.096294378917545,
+                    "start": 30.096294378917545
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 30.096294378917545,
+                        "id": "chr21.0.1.nocontam.sfq",
+                        "start": 27.060810016030953
+                    }
+                ],
+                "task_id": "10",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 32.21355393850519,
+                    "start": 27.060810016030953
+                },
+                "write": [
+                    {
+                        "end": 32.21355393850519,
+                        "id": "chr21.0.1.nocontam.fq",
+                        "start": 30.096294378917545
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 28.915092583041243,
+                    "start": 28.915092583041243
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 28.915092583041243,
+                        "id": "chr21.0.2.nocontam.sfq",
+                        "start": 25.848703010257733
+                    }
+                ],
+                "task_id": "11",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 31.13393102628869,
+                    "start": 25.848703010257733
+                },
+                "write": [
+                    {
+                        "end": 31.13393102628869,
+                        "id": "chr21.0.2.nocontam.fq",
+                        "start": 28.915092583041243
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 29.835253972628877,
+                    "start": 29.835253972628877
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 29.835253972628877,
+                        "id": "chr21.0.3.nocontam.sfq",
+                        "start": 26.847354413144345
+                    }
+                ],
+                "task_id": "12",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 32.076322416030955,
+                    "start": 26.847354413144345
+                },
+                "write": [
+                    {
+                        "end": 32.076322416030955,
+                        "id": "chr21.0.3.nocontam.fq",
+                        "start": 29.835253972628877
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 30.538208347165,
+                    "start": 30.538208347165
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 30.538208347165,
+                        "id": "chr21.0.4.nocontam.sfq",
+                        "start": 27.511281213144343
+                    }
+                ],
+                "task_id": "13",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 32.55363701314434,
+                    "start": 27.511281213144343
+                },
+                "write": [
+                    {
+                        "end": 32.55363701314434,
+                        "id": "chr21.0.4.nocontam.fq",
+                        "start": 30.538208347165
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 30.265756373969104,
+                    "start": 30.265756373969104
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 30.265756373969104,
+                        "id": "chr21.0.5.nocontam.sfq",
+                        "start": 27.23604430551548
+                    }
+                ],
+                "task_id": "14",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 32.05400341603095,
+                    "start": 27.23604430551548
+                },
+                "write": [
+                    {
+                        "end": 32.05400341603095,
+                        "id": "chr21.0.5.nocontam.fq",
+                        "start": 30.265756373969104
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 30.444068704690764,
+                    "start": 30.444068704690764
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 30.444068704690764,
+                        "id": "chr21.0.6.nocontam.sfq",
+                        "start": 27.479214810257734
+                    }
+                ],
+                "task_id": "15",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 33.5572612807732,
+                    "start": 27.479214810257734
+                },
+                "write": [
+                    {
+                        "end": 33.5572612807732,
+                        "id": "chr21.0.6.nocontam.fq",
+                        "start": 30.444068704690764
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 26.076105614381454,
+                    "start": 26.076105614381454
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 26.076105614381454,
+                        "id": "chr21.0.7.nocontam.sfq",
+                        "start": 23.11700623788661
+                    }
+                ],
+                "task_id": "16",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 30.080201291030953,
+                    "start": 23.11700623788661
+                },
+                "write": [
+                    {
+                        "end": 30.080201291030953,
+                        "id": "chr21.0.7.nocontam.fq",
+                        "start": 26.076105614381454
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 34.247781588582406,
+                    "start": 34.247781588582406
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 34.247781588582406,
+                        "id": "chr21.0.0.nocontam.fq",
+                        "start": 31.975766480773217
+                    }
+                ],
+                "task_id": "17",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 34.68865610262883,
+                    "start": 31.975766480773217
+                },
+                "write": [
+                    {
+                        "end": 34.68865610262883,
+                        "id": "chr21.0.0.nocontam.bfq",
+                        "start": 34.247781588582406
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 34.519826856623716,
+                    "start": 34.519826856623716
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 34.519826856623716,
+                        "id": "chr21.0.1.nocontam.fq",
+                        "start": 32.214863806134055
+                    }
+                ],
+                "task_id": "18",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 35.118670986752534,
+                    "start": 32.214863806134055
+                },
+                "write": [
+                    {
+                        "end": 35.118670986752534,
+                        "id": "chr21.0.1.nocontam.bfq",
+                        "start": 34.519826856623716
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 33.38648436613405,
+                    "start": 33.38648436613405
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 33.38648436613405,
+                        "id": "chr21.0.2.nocontam.fq",
+                        "start": 31.135240893917558
+                    }
+                ],
+                "task_id": "19",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 33.94991291623709,
+                    "start": 31.135240893917558
+                },
+                "write": [
+                    {
+                        "end": 33.94991291623709,
+                        "id": "chr21.0.2.nocontam.bfq",
+                        "start": 33.38648436613405
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 20.123524792795802,
+                    "start": 20.123524792795802
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 20.123524792795802,
+                        "id": "chr21.0.1.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "2",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 27.059500148402083,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 23.875633361082496,
+                        "id": "chr21.0.1.contam.sfq",
+                        "start": 20.123524792795802
+                    },
+                    {
+                        "end": 27.059500148402083,
+                        "id": "chr21.0.1.nocontam.sfq",
+                        "start": 23.875633361082496
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 34.404171668496495,
+                    "start": 34.404171668496495
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 34.404171668496495,
+                        "id": "chr21.0.3.nocontam.fq",
+                        "start": 32.07764115128869
+                    }
+                ],
+                "task_id": "20",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 34.95515918386595,
+                    "start": 32.07764115128869
+                },
+                "write": [
+                    {
+                        "end": 34.95515918386595,
+                        "id": "chr21.0.3.nocontam.bfq",
+                        "start": 34.404171668496495
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 34.54109751953598,
+                    "start": 34.54109751953598
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 34.54109751953598,
+                        "id": "chr21.0.4.nocontam.fq",
+                        "start": 32.5549468807732
+                    }
+                ],
+                "task_id": "21",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 35.13731218963912,
+                    "start": 32.5549468807732
+                },
+                "write": [
+                    {
+                        "end": 35.13731218963912,
+                        "id": "chr21.0.4.nocontam.bfq",
+                        "start": 34.54109751953598
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 33.911590337268024,
+                    "start": 33.911590337268024
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 33.911590337268024,
+                        "id": "chr21.0.5.nocontam.fq",
+                        "start": 32.055313283659814
+                    }
+                ],
+                "task_id": "22",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 34.277464919355594,
+                    "start": 32.055313283659814
+                },
+                "write": [
+                    {
+                        "end": 34.277464919355594,
+                        "id": "chr21.0.5.nocontam.bfq",
+                        "start": 33.911590337268024
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 36.196647171082404,
+                    "start": 36.196647171082404
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 36.196647171082404,
+                        "id": "chr21.0.6.nocontam.fq",
+                        "start": 33.55857114840206
+                    }
+                ],
+                "task_id": "23",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 36.81863386798968,
+                    "start": 33.55857114840206
+                },
+                "write": [
+                    {
+                        "end": 36.81863386798968,
+                        "id": "chr21.0.6.nocontam.bfq",
+                        "start": 36.196647171082404
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 34.07825502329893,
+                    "start": 34.07825502329893
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 34.07825502329893,
+                        "id": "chr21.0.7.nocontam.fq",
+                        "start": 30.081520026288686
+                    }
+                ],
+                "task_id": "24",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 34.81927550551542,
+                    "start": 30.081520026288686
+                },
+                "write": [
+                    {
+                        "end": 34.81927550551542,
+                        "id": "chr21.0.7.nocontam.bfq",
+                        "start": 34.07825502329893
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1051.1891543589174,
+                    "start": 1051.1891543589174
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 35.252490687783435,
+                        "id": "chr21.0.0.nocontam.bfq",
+                        "start": 34.689965970257695
+                    },
+                    {
+                        "end": 1051.1891543589174,
+                        "id": "chr21.BS.bfa",
+                        "start": 35.252490687783435
+                    }
+                ],
+                "task_id": "25",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1051.5559059300517,
+                    "start": 34.689965970257695
+                },
+                "write": [
+                    {
+                        "end": 1051.5559059300517,
+                        "id": "chr21.0.0.nocontam.map",
+                        "start": 1051.1891543589174
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1051.5139777742784,
+                    "start": 1051.5139777742784
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 35.67392171829896,
+                        "id": "chr21.0.1.nocontam.bfq",
+                        "start": 35.119980854381396
+                    },
+                    {
+                        "end": 1051.5139777742784,
+                        "id": "chr21.BS.bfa",
+                        "start": 35.67392171829896
+                    }
+                ],
+                "task_id": "26",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1051.8595339731442,
+                    "start": 35.119980854381396
+                },
+                "write": [
+                    {
+                        "end": 1051.8595339731442,
+                        "id": "chr21.0.1.nocontam.map",
+                        "start": 1051.5139777742784
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1050.3909422681704,
+                    "start": 1050.3909422681704
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 34.44836824952743,
+                        "id": "chr21.0.2.nocontam.bfq",
+                        "start": 33.95122278386595
+                    },
+                    {
+                        "end": 1050.3909422681704,
+                        "id": "chr21.BS.bfa",
+                        "start": 34.44836824952743
+                    }
+                ],
+                "task_id": "27",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1051.0261242514948,
+                    "start": 33.95122278386595
+                },
+                "write": [
+                    {
+                        "end": 1051.0261242514948,
+                        "id": "chr21.0.2.nocontam.map",
+                        "start": 1050.3909422681704
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1051.360611777371,
+                    "start": 1051.360611777371
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 35.49696195935558,
+                        "id": "chr21.0.3.nocontam.bfq",
+                        "start": 34.956469051494814
+                    },
+                    {
+                        "end": 1051.360611777371,
+                        "id": "chr21.BS.bfa",
+                        "start": 35.49696195935558
+                    }
+                ],
+                "task_id": "28",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1051.62280494067,
+                    "start": 34.956469051494814
+                },
+                "write": [
+                    {
+                        "end": 1051.62280494067,
+                        "id": "chr21.0.3.nocontam.map",
+                        "start": 1051.360611777371
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1051.5663491419073,
+                    "start": 1051.5663491419073
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 35.69958093762886,
+                        "id": "chr21.0.4.nocontam.bfq",
+                        "start": 35.13862205726798
+                    },
+                    {
+                        "end": 1051.5663491419073,
+                        "id": "chr21.BS.bfa",
+                        "start": 35.69958093762886
+                    }
+                ],
+                "task_id": "29",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1051.8966683811857,
+                    "start": 35.13862205726798
+                },
+                "write": [
+                    {
+                        "end": 1051.8966683811857,
+                        "id": "chr21.0.4.nocontam.map",
+                        "start": 1051.5663491419073
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 19.86861694766324,
+                    "start": 19.86861694766324
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 19.86861694766324,
+                        "id": "chr21.0.2.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "3",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 25.847393142628864,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 22.858861742628864,
+                        "id": "chr21.0.2.contam.sfq",
+                        "start": 19.86861694766324
+                    },
+                    {
+                        "end": 25.847393142628864,
+                        "id": "chr21.0.2.nocontam.sfq",
+                        "start": 22.858861742628864
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1050.5927907063403,
+                    "start": 1050.5927907063403
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 34.57541144512887,
+                        "id": "chr21.0.5.nocontam.bfq",
+                        "start": 34.278801389871056
+                    },
+                    {
+                        "end": 1050.5927907063403,
+                        "id": "chr21.BS.bfa",
+                        "start": 34.57541144512887
+                    }
+                ],
+                "task_id": "30",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1051.0951729941237,
+                    "start": 34.278801389871056
+                },
+                "write": [
+                    {
+                        "end": 1051.0951729941237,
+                        "id": "chr21.0.5.nocontam.map",
+                        "start": 1050.5927907063403
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1052.0871987680928,
+                    "start": 1052.0871987680928
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 37.44168327440713,
+                        "id": "chr21.0.6.nocontam.bfq",
+                        "start": 36.819943735618544
+                    },
+                    {
+                        "end": 1052.0871987680928,
+                        "id": "chr21.BS.bfa",
+                        "start": 37.44168327440713
+                    }
+                ],
+                "task_id": "31",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1052.2005650114431,
+                    "start": 36.819943735618544
+                },
+                "write": [
+                    {
+                        "end": 1052.2005650114431,
+                        "id": "chr21.0.6.nocontam.map",
+                        "start": 1052.0871987680928
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1051.6030763701547,
+                    "start": 1051.6030763701547
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 35.75311093886596,
+                        "id": "chr21.0.7.nocontam.bfq",
+                        "start": 34.82058537314428
+                    },
+                    {
+                        "end": 1051.6030763701547,
+                        "id": "chr21.BS.bfa",
+                        "start": 35.75311093886596
+                    }
+                ],
+                "task_id": "32",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1052.0180498988145,
+                    "start": 34.82058537314428
+                },
+                "write": [
+                    {
+                        "end": 1052.0180498988145,
+                        "id": "chr21.0.7.nocontam.map",
+                        "start": 1051.6030763701547
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1053.0770547884536,
+                    "start": 1053.0770547884536
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 1052.3041274958762,
+                        "id": "chr21.0.0.nocontam.map",
+                        "start": 1052.201874879072
+                    },
+                    {
+                        "end": 1052.4059224741236,
+                        "id": "chr21.0.1.nocontam.map",
+                        "start": 1052.3041274958762
+                    },
+                    {
+                        "end": 1052.5103717290722,
+                        "id": "chr21.0.2.nocontam.map",
+                        "start": 1052.4059224741236
+                    },
+                    {
+                        "end": 1052.609245946031,
+                        "id": "chr21.0.3.nocontam.map",
+                        "start": 1052.5103717290722
+                    },
+                    {
+                        "end": 1052.7128020046907,
+                        "id": "chr21.0.4.nocontam.map",
+                        "start": 1052.609245946031
+                    },
+                    {
+                        "end": 1052.7952421975774,
+                        "id": "chr21.0.5.nocontam.map",
+                        "start": 1052.7128020046907
+                    },
+                    {
+                        "end": 1052.9072985659277,
+                        "id": "chr21.0.6.nocontam.map",
+                        "start": 1052.7952421975774
+                    },
+                    {
+                        "end": 1053.0770547884536,
+                        "id": "chr21.0.7.nocontam.map",
+                        "start": 1052.9072985659277
+                    }
+                ],
+                "task_id": "33",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1053.8027225063397,
+                    "start": 1052.201874879072
+                },
+                "write": [
+                    {
+                        "end": 1053.7643784663915,
+                        "id": "chr21.nocontam.map",
+                        "start": 1053.0770547884536
+                    },
+                    {
+                        "end": 1053.774428665412,
+                        "id": "chr21.nocontam.map.vm",
+                        "start": 1053.7643784663915
+                    },
+                    {
+                        "end": 1053.8027225063397,
+                        "id": "chr21.nocontam.map.zr",
+                        "start": 1053.774428665412
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1054.4475492519066,
+                    "start": 1054.4475492519066
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 1054.4475492519066,
+                        "id": "chr21.nocontam.map",
+                        "start": 1053.8040323739685
+                    }
+                ],
+                "task_id": "34",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1054.464636569381,
+                    "start": 1053.8040323739685
+                },
+                "write": [
+                    {
+                        "end": 1054.464636569381,
+                        "id": "chr21.nocontam.chr.map",
+                        "start": 1054.4475492519066
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 1181.525777584484,
+                    "start": 1181.525777584484
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 1181.5100001420099,
+                        "id": "chr21.BSnull.bfa",
+                        "start": 1054.4659464370097
+                    },
+                    {
+                        "end": 1181.525777584484,
+                        "id": "chr21.nocontam.chr.map",
+                        "start": 1181.5100001420099
+                    }
+                ],
+                "task_id": "35",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 1181.581148541649,
+                    "start": 1054.4659464370097
+                },
+                "write": [
+                    {
+                        "end": 1181.581148541649,
+                        "id": "chr21.nocontam.chr.pileup",
+                        "start": 1181.525777584484
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 20.059103129820834,
+                    "start": 20.059103129820834
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 20.059103129820834,
+                        "id": "chr21.0.3.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "4",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 26.846044545515475,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 23.845460475824755,
+                        "id": "chr21.0.3.contam.sfq",
+                        "start": 20.059103129820834
+                    },
+                    {
+                        "end": 26.846044545515475,
+                        "id": "chr21.0.3.nocontam.sfq",
+                        "start": 23.845460475824755
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 20.259215684950906,
+                    "start": 20.259215684950906
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 20.259215684950906,
+                        "id": "chr21.0.4.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "5",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 27.509971345515474,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 24.25424615030931,
+                        "id": "chr21.0.4.contam.sfq",
+                        "start": 20.259215684950906
+                    },
+                    {
+                        "end": 27.509971345515474,
+                        "id": "chr21.0.4.nocontam.sfq",
+                        "start": 24.25424615030931
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 20.20897537673294,
+                    "start": 20.20897537673294
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 20.20897537673294,
+                        "id": "chr21.0.5.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "6",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 27.234734437886612,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 24.054028375257747,
+                        "id": "chr21.0.5.contam.sfq",
+                        "start": 20.20897537673294
+                    },
+                    {
+                        "end": 27.234734437886612,
+                        "id": "chr21.0.5.nocontam.sfq",
+                        "start": 24.054028375257747
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 20.2520586797079,
+                    "start": 20.2520586797079
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 20.2520586797079,
+                        "id": "chr21.0.6.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "7",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 27.477904942628864,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 24.25001899005157,
+                        "id": "chr21.0.6.contam.sfq",
+                        "start": 20.2520586797079
+                    },
+                    {
+                        "end": 27.477904942628864,
+                        "id": "chr21.0.6.nocontam.sfq",
+                        "start": 24.25001899005157
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 19.32807703046392,
+                    "start": 19.32807703046392
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 19.32807703046392,
+                        "id": "chr21.0.7.sfq",
+                        "start": 13.304611742628866
+                    }
+                ],
+                "task_id": "8",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 23.11569637025774,
+                    "start": 13.304611742628866
+                },
+                "write": [
+                    {
+                        "end": 19.897771569467373,
+                        "id": "chr21.0.7.contam.sfq",
+                        "start": 19.32807703046392
+                    },
+                    {
+                        "end": 23.11569637025774,
+                        "id": "chr21.0.7.nocontam.sfq",
+                        "start": 19.897771569467373
+                    }
+                ]
+            },
+            {
+                "color": "",
+                "compute": {
+                    "end": 29.783677459020634,
+                    "start": 29.783677459020634
+                },
+                "execution_host": {
+                    "cores": 4,
+                    "flop_rate": 1000000000000.0,
+                    "hostname": "Tremblay",
+                    "memory_manager_service": 1.125899906842624e+15
+                },
+                "failed": -1.0,
+                "num_cores_allocated": 1,
+                "read": [
+                    {
+                        "end": 29.783677459020634,
+                        "id": "chr21.0.0.nocontam.sfq",
+                        "start": 26.621943410257735
+                    }
+                ],
+                "task_id": "9",
+                "terminated": -1.0,
+                "whole_task": {
+                    "end": 31.974456613144348,
+                    "start": 26.621943410257735
+                },
+                "write": [
+                    {
+                        "end": 31.974456613144348,
+                        "id": "chr21.0.0.nocontam.fq",
+                        "start": 29.783677459020634
+                    }
+                ]
+            }
+        ]
+    }
+}

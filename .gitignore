@@ -1,0 +1,51 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CLion folders
+cmake-build-debug
+.idea
+
+# Code coverage (testability files)
+*.gcno
+*.gcda
+
+# Documentation
+docs
+
+# MACOS
+.DS_Store
+
+Makefile
+CMakeCache.txt
+CMakeFiles
+*.cbp
+install_manifest.txt
+cmake_install.cmake
+Testing

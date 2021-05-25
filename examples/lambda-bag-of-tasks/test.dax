@@ -1,0 +1,215 @@
+<adag xmlns="http://pegasus.isi.edu/schema/DAX" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pegasus.isi.edu/schema/DAX http://pegasus.isi.edu/schema/dax-3.4.xsd" version="3.4" name="pipeline">
+    <job id="0" name="fastqSplit_chr21">
+        <argument/>
+        <uses file="chr21.0.0.sfq" size="30755085" link="output"/>
+        <uses file="chr21.0.1.sfq" size="31101555" link="output"/>
+        <uses file="chr21.0.2.sfq" size="30523391" link="output"/>
+        <uses file="chr21.0.3.sfq" size="30859556" link="output"/>
+        <uses file="chr21.0.4.sfq" size="32376817" link="output"/>
+        <uses file="chr21.0.5.sfq" size="31630160" link="output"/>
+        <uses file="chr21.0.6.sfq" size="32262778" link="output"/>
+        <uses file="chr21.0.7.sfq" size="29718713" link="output"/>
+        <uses file="chr210.sfq" size="249228055" link="input"/>
+    </job>
+    <job id="1" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.0.nocontam.sfq" size="15551340" link="output"/>
+        <uses file="chr21.0.0.contam.sfq" size="15203745" link="output"/>
+        <uses file="chr21.0.0.sfq" size="30755085" link="input"/>
+    </job>
+    <job id="2" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.1.nocontam.sfq" size="15501194" link="output"/>
+        <uses file="chr21.0.1.contam.sfq" size="15600361" link="output"/>
+        <uses file="chr21.0.1.sfq" size="31101555" link="input"/>
+    </job>
+    <job id="3" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.2.nocontam.sfq" size="15223514" link="output"/>
+        <uses file="chr21.0.2.contam.sfq" size="15299877" link="output"/>
+        <uses file="chr21.0.2.sfq" size="30523391" link="input"/>
+    </job>
+    <job id="4" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.3.nocontam.sfq" size="14781819" link="output"/>
+        <uses file="chr21.0.3.contam.sfq" size="16077737" link="output"/>
+        <uses file="chr21.0.3.sfq" size="30859556" link="input"/>
+    </job>
+    <job id="5" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.4.nocontam.sfq" size="15467155" link="output"/>
+        <uses file="chr21.0.4.contam.sfq" size="16909662" link="output"/>
+        <uses file="chr21.0.4.sfq" size="32376817" link="input"/>
+    </job>
+    <job id="6" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.5.nocontam.sfq" size="15570955" link="output"/>
+        <uses file="chr21.0.5.contam.sfq" size="16059205" link="output"/>
+        <uses file="chr21.0.5.sfq" size="31630160" link="input"/>
+    </job>
+    <job id="7" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.6.nocontam.sfq" size="15344899" link="output"/>
+        <uses file="chr21.0.6.contam.sfq" size="16917879" link="output"/>
+        <uses file="chr21.0.6.sfq" size="32262778" link="input"/>
+    </job>
+    <job id="8" name="filterContams_chr21">
+        <argument/>
+        <uses file="chr21.0.7.nocontam.sfq" size="15327292" link="output"/>
+        <uses file="chr21.0.7.contam.sfq" size="14391421" link="output"/>
+        <uses file="chr21.0.7.sfq" size="29718713" link="input"/>
+    </job>
+    <job id="9" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.0.nocontam.fq" size="10643786" link="output"/>
+        <uses file="chr21.0.0.nocontam.sfq" size="15551340" link="input"/>
+    </job>
+    <job id="10" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.1.nocontam.fq" size="10587125" link="output"/>
+        <uses file="chr21.0.1.nocontam.sfq" size="15501194" link="input"/>
+    </job>
+    <job id="11" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.2.nocontam.fq" size="11218923" link="output"/>
+        <uses file="chr21.0.2.nocontam.sfq" size="15223514" link="input"/>
+    </job>
+    <job id="12" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.3.nocontam.fq" size="10988665" link="output"/>
+        <uses file="chr21.0.3.nocontam.sfq" size="14781819" link="input"/>
+    </job>
+    <job id="13" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.4.nocontam.fq" size="9278703" link="output"/>
+        <uses file="chr21.0.4.nocontam.sfq" size="15467155" link="input"/>
+    </job>
+    <job id="14" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.5.nocontam.fq" size="8913290" link="output"/>
+        <uses file="chr21.0.5.nocontam.sfq" size="15570955" link="input"/>
+    </job>
+    <job id="15" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.6.nocontam.fq" size="14769501" link="output"/>
+        <uses file="chr21.0.6.nocontam.sfq" size="15344899" link="input"/>
+    </job>
+    <job id="16" name="sol2sanger_chr21">
+        <argument/>
+        <uses file="chr21.0.7.nocontam.fq" size="20129851" link="output"/>
+        <uses file="chr21.0.7.nocontam.sfq" size="15327292" link="input"/>
+    </job>
+    <job id="17" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.0.nocontam.bfq" size="2687881" link="output"/>
+        <uses file="chr21.0.0.nocontam.fq" size="10643786" link="input"/>
+    </job>
+    <job id="18" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.1.nocontam.bfq" size="2675372" link="output"/>
+        <uses file="chr21.0.1.nocontam.fq" size="10587125" link="input"/>
+    </job>
+    <job id="19" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.2.nocontam.bfq" size="2747920" link="output"/>
+        <uses file="chr21.0.2.nocontam.fq" size="11218923" link="input"/>
+    </job>
+    <job id="20" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.3.nocontam.bfq" size="2595541" link="output"/>
+        <uses file="chr21.0.3.nocontam.fq" size="10988665" link="input"/>
+    </job>
+    <job id="21" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.4.nocontam.bfq" size="2723507" link="output"/>
+        <uses file="chr21.0.4.nocontam.fq" size="9278703" link="input"/>
+    </job>
+    <job id="22" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.5.nocontam.bfq" size="2146361" link="output"/>
+        <uses file="chr21.0.5.nocontam.fq" size="8913290" link="input"/>
+    </job>
+    <job id="23" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.6.nocontam.bfq" size="2955840" link="output"/>
+        <uses file="chr21.0.6.nocontam.fq" size="14769501" link="input"/>
+    </job>
+    <job id="24" name="fastq2bfq_chr21">
+        <argument/>
+        <uses file="chr21.0.7.nocontam.bfq" size="4532910" link="output"/>
+        <uses file="chr21.0.7.nocontam.fq" size="20129851" link="input"/>
+    </job>
+    <job id="25" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.0.nocontam.map" size="2921609" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.0.nocontam.bfq" size="2687881" link="input"/>
+    </job>
+    <job id="26" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.1.nocontam.map" size="2908013" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.1.nocontam.bfq" size="2675372" link="input"/>
+    </job>
+    <job id="27" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.2.nocontam.map" size="2986869" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.2.nocontam.bfq" size="2747920" link="input"/>
+    </job>
+    <job id="28" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.3.nocontam.map" size="2821240" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.3.nocontam.bfq" size="2595541" link="input"/>
+    </job>
+    <job id="29" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.4.nocontam.map" size="2960333" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.4.nocontam.bfq" size="2723507" link="input"/>
+    </job>
+    <job id="30" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.5.nocontam.map" size="2333001" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.5.nocontam.bfq" size="2146361" link="input"/>
+    </job>
+    <job id="31" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.6.nocontam.map" size="3212869" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.6.nocontam.bfq" size="2955840" link="input"/>
+    </job>
+    <job id="32" name="map_chr21">
+        <argument/>
+        <uses file="chr21.0.7.nocontam.map" size="4927076" link="output"/>
+        <uses file="chr21.BS.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.0.7.nocontam.bfq" size="4532910" link="input"/>
+    </job>
+    <job id="33" name="mapMerge_chr21">
+        <argument/>
+        <uses file="chr21.nocontam.map" size="23651896" link="output"/>
+        <uses file="chr21.nocontam.map.zr" size="685450" link="output"/>
+        <uses file="chr21.nocontam.map.vm" size="143449" link="output"/>
+        <uses file="chr21.0.0.nocontam.map" size="2921609" link="input"/>
+        <uses file="chr21.0.1.nocontam.map" size="2908013" link="input"/>
+        <uses file="chr21.0.2.nocontam.map" size="2986869" link="input"/>
+        <uses file="chr21.0.3.nocontam.map" size="2821240" link="input"/>
+        <uses file="chr21.0.4.nocontam.map" size="2960333" link="input"/>
+        <uses file="chr21.0.5.nocontam.map" size="2333001" link="input"/>
+        <uses file="chr21.0.6.nocontam.map" size="3212869" link="input"/>
+        <uses file="chr21.0.7.nocontam.map" size="4927076" link="input"/>
+    </job>
+    <job id="34" name="maqindex_chr21">
+        <argument/>
+        <uses file="chr21.nocontam.chr.map" size="352515" link="output"/>
+        <uses file="chr21.nocontam.map" size="23651896" link="input"/>
+    </job>
+    <job id="35" name="pileup_chr21">
+        <argument/>
+        <uses file="chr21.nocontam.chr.pileup" size="1489885" link="output"/>
+        <uses file="chr21.BSnull.bfa" size="5079934029" link="input"/>
+        <uses file="chr21.nocontam.chr.map" size="352515" link="input"/>
+    </job>
+</adag>

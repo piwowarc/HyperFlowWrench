@@ -1,0 +1,17 @@
+#ifndef S_LAMBDACOMPUTESERVICEMESSAGEPAYLOAD_H
+#define S_LAMBDACOMPUTESERVICEMESSAGEPAYLOAD_H
+
+#include "wrench/services/compute/ComputeServiceMessagePayload.h"
+
+namespace wrench {
+    namespace hyperflow {
+        class LambdaComputeServiceMessagePayload : public ComputeServiceMessagePayload {
+        public:
+            DECLARE_MESSAGEPAYLOAD_NAME(DAEMON_STOPPED_MESSAGE_PAYLOAD);
+            DECLARE_MESSAGEPAYLOAD_NAME(NOTIFY_EXECUTOR_STATUS_MESSAGE_PAYLOAD);
+            DECLARE_MESSAGEPAYLOAD_NAME(SUBMIT_STANDARD_JOB_REQUEST_MESSAGE_PAYLOAD);
+            DECLARE_MESSAGEPAYLOAD_NAME(STANDARD_JOB_DONE_MESSAGE_PAYLOAD);
+        };
+    }
+}
+#endif //S_LAMBDACOMPUTESERVICEMESSAGEPAYLOAD_H

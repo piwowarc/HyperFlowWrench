@@ -1,0 +1,139 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var convert = require('xml-js');
+class Element {
+    constructor(name) {
+        this.type = 'element'
+        this.name = name
+        this.attributes = {}
+        this.elements = []
+    }
+}
+class Text {
+    constructor(text) {
+        this.type = 'text'
+        this.text = text
+    }
+}
+
+function toPegasusWorkflow(filename) {
+    const rawFile = fs.readFileSync(filename)
+    let json = JSON.parse(rawFile)
+    let adag = new Element('adag')
+    let files = new Set()
+    json.signals.forEach(file => {
+        files.add(file.name)
+    })
+    jobs = []
+    signal_process_array = new Array(json.signals.size);
+    json.processes.forEach((process, id) => {
+        process.outs.forEach(out => {
+            signal_process_array[out] = id
+        })
+    })
+    json.processes.forEach((process, id) => {
+        let job = new Element("job")
+        job.attributes = {
+            id: id,
+            name: process.config.executor.executable,
+            runtime: process.config.executor.runtime,
+            cores: process.config.executor.cores,
+            avgCPU: process.config.executor.avgCPU,
+            bytesRead: process.config.executor.bytesRead,
+            bytesWritten: process.config.executor.bytesWritten,
+            memory: process.config.executor.memory,
+            energy: process.config.executor.energy,
+            avgPower: process.config.executor.avgPower,
+            prioryty: process.config.executor.prioryty,
+            machine: process.config.executor.machine
+        }
+
+        let argument = new Element("argument")
+        process.config.executor.args.forEach(arg => {
+            if (files.has(arg)) {
+                let file = new Element("file")
+                file.attributes.name = arg
+                argument.elements.push(file);
+            } else {
+                argument.elements.push(new Text(arg + ' '));
+            }
+        })
+
+        job.elements.push(argument)
+
+        process.outs.forEach(out => {
+            let uses = new Element("uses")
+            uses.attributes = 
+            {
+                file: json.signals[out].name,
+                size: json.signals[out].size,
+                link: "output"
+            }
+            job.elements.push(uses)
+        })
+
+        if (process.config.executor.stdout) {
+            let stdout = new Element("stdout")
+            stdout.attributes = {
+                name: process.config.executor.stdout,
+                link: "output"
+            }
+            job.elements.push(stdout)
+        }
+
+        let child = new Element("child")
+        child.attributes = {
+            "ref": id
+        }
+        process.ins.forEach(i => {
+            let uses = new Element("uses")
+            uses.attributes = {
+                file: json.signals[i].name,
+                size: json.signals[i].size,
+                link: "input"
+            }
+            job.elements.push(uses)
+
+            let parent = new Element("parent")
+            parent.attributes = {
+                "ref": signal_process_array[i]
+            }
+            child.elements.push(parent)
+        })
+
+        adag.elements.push(job)
+        if(child.elements.size > 0) {
+            adag.elements.push(child)
+        }
+    });
+    adag.attributes = {
+        "xmlns": "http://pegasus.isi.edu/schema/DAX",
+        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "xsi:schemaLocation": "http://pegasus.isi.edu/schema/DAX http://pegasus.isi.edu/schema/dax-2.1.xsd",
+        "version": "2.1",
+    }
+
+    
+    result = new Element("root")
+    result.elements = [adag]
+    const options = {
+        compact: false,
+        ignoreComment: true,
+        spaces: 4,
+        indentCdata: true
+    };
+    result = convert.js2xml(result, options);
+
+    console.log(result);
+}
+
+let argv = require('optimist').argv;
+
+if (!argv._[0]) {
+    console.log("Usage: dax-convert-hflow <hfow file path>");
+    process.exit();
+}
+
+toPegasusWorkflow(argv._[0]);
+

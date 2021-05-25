@@ -1,0 +1,14 @@
+{
+  "name": "hyperflow-pegasus--converter",
+  "description": "Pegasus HyperFlow JSON to DAX workflow format converter",
+  "version": "0.2.0",
+  "bin": {
+    "hflow-convert-dax": "dax-convert-hflow"
+  },
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "shell-quote": "^1.7.2",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.19"
+  }
+}
